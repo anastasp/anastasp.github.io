@@ -1,0 +1,75 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=windows-1250">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<meta name="description" content="" />
+<meta name="keywords" content="" />
+<meta name="robots" content="noindex, follow" />
+<meta property="og:image" content="http://www.vxs.cz/wedding/img/facebook.png"/>
+<title>Wedding Countdown</title>
+<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+<link rel='stylesheet' type='text/css' href='stylesheet.css'/> 
+<link rel="stylesheet" type="text/css" href="css/jquery.countdown.css"> 
+<link href='http://fonts.googleapis.com/css?family=Josefin+Slab:300,400' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Lato:100,300,400' rel='stylesheet' type='text/css'>
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.js"></script>
+<script type="text/javascript" charset="utf-8" src="js/jquery.tubular.1.0.js"></script> 
+<script type="text/javascript" src="js/jquery.countdown.js"></script>
+</head>   
+<body>
+  <div id="wrap">
+    <p>The oh yea day</p>
+    <p style="font-size: 2em">Get ready</p>
+    <div id="clock"></div>
+  </div>
+  <div id="overlay-black"></div>
+  <div id="home-screen">
+    <div id="wrapper"></div>
+  </div>
+  <script type="text/javascript">
+  $('#clock').countdown({until: new Date(2015, 10-1, 31)});
+  </script>
+  <script>
+  $(document).ready(function() {
+                $('#wrapper').tubular({videoId: 'jejdSjrwhlg', ratio: 16/9, repeat: true, mute: true}); 
+                player.pauseVideo();
+                player.playVideo();    
+        });  
+  </script>  
+  <script>
+
+    var playing = false;
+
+    $('#button').click(function() {
+        $(this).toggleClass("down");
+
+        if (playing == false) {
+            document.getElementById('player').play();
+            playing = true;
+            $(this).text("Stop Our Song");
+
+        } else {
+            document.getElementById('player').pause();
+            playing = false;
+            $(this).text("Play Our Song");
+        }
+
+
+    });
+
+  </script>
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-46254190-3', 'vxs.cz');
+  ga('send', 'pageview');
+
+</script>
+
+</body>
+</html>
