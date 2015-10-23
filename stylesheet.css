@@ -8,7 +8,7 @@ body {
 
 @font-face {
     font-family: myFirstFont;
-    src: url(fonts/28_days_later.ttf);
+    src: url("fonts/28DaysLater.ttf");
 }
 
 #home-screen {
