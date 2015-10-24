@@ -11,8 +11,11 @@ body {
     src: url("fonts/28DaysLater.ttf");
 }
 
+#date {
+    margin-top: 20%;
+}
 #home-screen {
-    background-image: url("img/image.jpg");
+    background-image: url("img/image2.jpg");
     left: 0px;
     position: fixed;
     top: 0px;
@@ -44,9 +47,10 @@ body {
     position: absolute;
     width: 100%;
     margin-left: auto;
-    margin-top: -285px;
+    margin-top: -345px;
     top: 50%;
     margin-left: -8px;
+    text-transform: none;
 }
 
 #wrap p {
@@ -58,12 +62,12 @@ body {
 }
 #wrap span {
     font-weight: 500;
-    text-transform: uppercase;
+    /*text-transform: uppercase;*/
 }
 
 #clock {
     color: #FFFFFF;
-    margin-top: 135px;
+    margin-top: -8px;
     position: relative;
     display: inline-block;
     margin-right: -13px;
