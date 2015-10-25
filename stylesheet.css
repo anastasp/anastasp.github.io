@@ -12,7 +12,7 @@ body {
 }
 
 #date {
-    margin-top: 10%;
+    margin-top: 5%;
 }
 #home-screen {
     background-image: url("img/image2.jpg");
@@ -28,23 +28,13 @@ body {
     background-position: center center;
 }
 
-#overlay-black {
-    background-image: url('img/pattern.png');
-    height: 100%;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    opacity: 0.6;
-    z-index: 1;
-    left: 0%;
-}
 
 #wrap {
     font-family: myfirstFont;
     color: #FFFFFF;
     text-align: center;
     z-index: 9999;
-    position: absolute;
+    position: relative;
     width: 100%;
     margin-left: auto;
     margin-top: 100px;
