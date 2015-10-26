@@ -61,7 +61,7 @@ body {
 
 #clock {
     color: #FFFFFF;
-    margin-top: 300px;
+    margin-top: 350px;
     position: relative;
     display: inline-block;
     margin-right: -13px;
@@ -72,19 +72,6 @@ body {
     text-transform: none
 }
 
-
-#footer {
-    z-index: 9999;
-    position: absolute;
-    font-family: 'Lato', sans-serif;
-    color: #FFFFFF;
-    font-size: .7em;
-    bottom: 5px;
-    left: 50%;
-    margin-left: -93px;
-    opacity: 0.4;
-    font-weight: 500;
-}
 
 @media screen and (min-width: 600px) and (max-width: 760px) {
 
