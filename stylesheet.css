@@ -6,10 +6,12 @@ body {
     margin: 0px !important;
 }
 
+/*
 @font-face {
     font-family: myFirstFont;
     src: url("fonts/28DaysLater.ttf");
 }
+*/
 
 @font-face {
     font-family: mySesecondFont;
@@ -20,7 +22,7 @@ body {
     margin-top: 10%;
 }
 #home-screen {
-    background-image: url("img/image5.jpg");
+    background-image: url("img/image6.jpg");
     left: 0px;
     position: fixed;
     top: 0px;
@@ -71,7 +73,15 @@ body {
     font-size: 1.5em; 
     text-transform: none
 }
-
+#gamos {
+    position: relative;
+    right: 15%
+}
+#gledi {
+    position: relative;
+    left: 15%;
+    top: 10%;
+}
 
 @media screen and (min-width: 600px) and (max-width: 760px) {
 
@@ -165,4 +175,16 @@ button {
     margin-left: 10px;
 }
 
+}
+
+#bank {
+    position: relative;
+
+    top: 37px;
+}
+
+.gift {
+    position: relative;
+    right: 478px;
+    top: 37px;
 }
