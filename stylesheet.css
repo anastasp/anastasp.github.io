@@ -63,26 +63,36 @@ body {
 
 #clock {
     color: #FFFFFF;
-    margin-top: 350px;
+    margin-top: 384px;
     position: relative;
     display: inline-block;
     margin-right: -13px;
 }
 
+#asdf {
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    font-size: 16px;
+    position: relative;
+    margin-top: 31px;
+}
 #location {
     font-size: 1.5em; 
     text-transform: none
 }
 #gamos {
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    font-size: 12px;
     position: relative;
     right: 176px;
 }
 #gledi {
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    font-size: 12px;
     height: 100px;
     width: 173px;
     position: relative;
     left: 1008px;
-    margin-top: -73px;
+    margin-top: -67px;
 }
 
 @media screen and (min-width: 600px) and (max-width: 760px) {
@@ -180,13 +190,17 @@ button {
 }
 
 #bank {
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    font-size: 10px;
+    text-align: left;
     position: relative;
-
+    left: 667px;
     top: 37px;
 }
 
 .gift {
+
     position: relative;
-    right: 478px;
+    right: 60px;
     top: 37px;
 }
