@@ -75,12 +75,14 @@ body {
 }
 #gamos {
     position: relative;
-    right: 15%
+    right: 176px;
 }
 #gledi {
+    height: 100px;
+    width: 173px;
     position: relative;
-    left: 15%;
-    top: 10%;
+    left: 1008px;
+    margin-top: -73px;
 }
 
 @media screen and (min-width: 600px) and (max-width: 760px) {
