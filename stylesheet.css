@@ -70,6 +70,7 @@ body {
 }
 
 #asdf {
+    font-weight: bold;
     font-family: Arial;
     font-size: 16px;
     position: relative;
@@ -169,6 +170,9 @@ button {
     right: 60px;
     top: 37px;
 }
+#asdf {
+    left: -1%;
+}
 
 }
 
@@ -224,6 +228,9 @@ overflow-x: hidden;
     position: relative;
     right: 60px;
     top: 37px;
+}
+#asdf {
+    left: 5%;
 }
 
 }
